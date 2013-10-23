@@ -5,11 +5,15 @@ public class Studienberatung {
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Haben du Abitur?");
-		String input = scan.next();
+		String answer = scan.next();
 		
 		if (answer.equalsIgnoreCase("n")){
 			System.out.println("Hast du Fachabitur?");
 			String answer = scanner.next();
+			if (answer.equalsIgnoreCase("j")){
+				System.out.println("Hast du eine Berufsaubildung?");
+				String answer = scanner.next();
+			}
 			if (answer.equalsIgnoreCase("n"){
 				// hier Code für kein Abitur
 			}
