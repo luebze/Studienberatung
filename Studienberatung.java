@@ -14,5 +14,12 @@ public class Studienberatung {
 				// hier Code für kein Abitur
 			}
 		}
+		if (answer.equalsIgnoreCase("j")){
+			System.out.println("Bist du wissbegierig?");
+			String answer = scanner.next();
+			if (answer.equalsIgnoreCase("n"){
+				// hier Code für nicht studieren
+			}
+		}
 	}
 }
